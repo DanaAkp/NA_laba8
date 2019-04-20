@@ -23,8 +23,8 @@ namespace NA_laba8
         }
         public static double Func(double x)
         {
-            return x * Math.Pow(Math.E, x);
-            // return 0.37 * Math.Pow(Math.E, Math.Sin(x));
+             //return x * Math.Pow(Math.E, x);
+             return 0.37 * Math.Pow(Math.E, Math.Sin(x));
         }
         public static string Output(List<double> ls, int interval)
         {
